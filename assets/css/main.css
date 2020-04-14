@@ -689,7 +689,11 @@ hr {
 }
 
 #hero-area .contents {
-  padding: 170px 0px 50px;
+  position: absolute;
+  z-index: 999;
+  top: 205px;
+   left: 50px;
+   right: 50px;
 }
 
 #hero-area .contents h5 {
@@ -710,6 +714,12 @@ hr {
   line-height: 30px;
   font-weight: 500;
   margin-bottom: 30px;
+}
+#hero-area .img-thumb {
+  padding: 170px 0px 50px;
+}
+#hero-area .img-thumb > img {
+  border-radius: 20px;
 }
 
 .sloder-img {
